@@ -1,4 +1,3 @@
-/*Relevent CSS section start*/
 .image_block{
   display: inline-block;
   padding-right: 4%;
@@ -28,7 +27,6 @@
 .fader img.top:hover {
   opacity:0;
 }
-/*Relevent CSS section end*/
 
 body{
   margin-top: 0;

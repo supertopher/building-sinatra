@@ -1,3 +1,4 @@
+# I have to match the filename
 class CreateUsers < ActiveRecord::Migration
 
   def change
