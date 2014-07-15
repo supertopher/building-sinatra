@@ -1,0 +1,101 @@
+/*Relevent CSS section start*/
+.image_block{
+  display: inline-block;
+  padding-right: 4%;
+}
+
+.fader{
+  /*Height&Width should be reset to reflect desired image size*/
+  height:   287px;
+  width:    354px;
+  position:relative;
+  margin: right;
+}
+
+.fader img{
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition:    opacity 1s ease-in-out;
+  -o-transition:      opacity 1s ease-in-out;
+  transition:         opacity 1s ease-in-out;
+  border-radius:          17px 17px 17px 17px;
+  -moz-border-radius:     17px 17px 17px 17px;
+  -webkit-border-radius:  17px 17px 17px 17px;
+  border: 3px solid #34495e;
+}
+
+.fader img.top:hover {
+  opacity:0;
+}
+/*Relevent CSS section end*/
+
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #ecf0f1;
+}
+
+.navigation{
+  padding: 0.5em;
+  /*margin: 0, 0, 1em, 0;*/
+  background-color: white;
+  -webkit-box-shadow: inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:    inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  box-shadow:         inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+}
+
+.title{
+  font-family: 'Lustria', serif;
+  padding-top:      0.5em;
+  padding-bottom:   0.5em;
+  margin: auto;
+  width: 80%;
+  color: #2980b9;
+}
+
+.main{
+  padding-top: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+article{
+  width: 70%;
+}
+
+.image_text{
+  padding: 0.75em;
+  font-size: 1.15em;
+  color: #2980b9;
+}
+
+
+.fader2sec{
+  position:relative;
+  height:   287px;
+  width:    354px;
+  margin: right;
+}
+
+.fader2sec img{
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition:    opacity 2s ease-in-out;
+  -o-transition:      opacity 2s ease-in-out;
+  transition:         opacity 2s ease-in-out;
+  border-radius:          17px 17px 17px 17px;
+  -moz-border-radius:     17px 17px 17px 17px;
+  -webkit-border-radius:  17px 17px 17px 17px;
+  border: 3px solid #34495e;
+}
+
+.fader2sec img.top:hover {
+  opacity:0;
+}
+
+.github{
+  padding-top: 1em;
+}

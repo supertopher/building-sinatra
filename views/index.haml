@@ -1,0 +1,17 @@
+.image_block
+  .fader
+    %img{class: "bottom", src: "images/bottom.jpg"}
+    %img{class: "top", src: "images/top.jpg"}
+  .image_text 1 second crossfade
+.image_block
+  .fader2sec
+    %img{class: "bottom", src: "images/bottom.jpg"}
+    %img{class: "top", src: "images/top.jpg"}
+  .image_text 2 second crossfade
+
+%article
+  Hello #{@user.name}!
+  The public folder is also a freebie given to us by sinatra.  CSS and JS can live in there
+.github
+  %a{href:"https://github.com/supertopher/parzival-transition"}
+    Source Code on Github
